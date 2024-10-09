@@ -1,9 +1,11 @@
-const initialScreen = () => {
+import "./InitialScreen.css";
+
+const InitialScreen = () => {
   return (
     <div>
-      <h1>JetSales</h1>
+      <h1 className="title">JetSales</h1>
     </div>
   );
 };
 
-export default initialScreen;
+export default InitialScreen;
